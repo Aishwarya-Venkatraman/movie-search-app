@@ -1,0 +1,49 @@
+.searchForm {
+    display: grid;
+}
+
+.movieLabel {
+    font-size: 2rem;
+    margin-bottom: 0.2rem;
+    text-transform: uppercase;
+}
+
+.movieName {
+    font-size: 1.6rem;
+    padding: 0.5rem 2rem;
+    line-height: 2.8rem;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+}
+
+.searchButton {
+    background-color: hsla(148.00,48.39%,42.55%,100%);
+    color: white;
+    padding: 1rem 2rem;
+    border: 1px solid hsla(148.00,48.39%,42.55%,100%);
+    border-radius: 20px;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: background-color 250ms;
+}
+
+.searchButton:hover {
+    background-color: hsla(148.00,48.39%,42.55%,80%);
+}
+
+@media (min-width:768px){
+    .searchForm {
+        grid-template-columns: auto 1fr auto;
+        grid-gap: 1rem;
+        align-items: center;
+    }
+    
+    .movieName {
+        margin-bottom: 0;
+    }
+}
+
+.card-list {
+    margin-top: 4rem;
+}
