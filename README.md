@@ -1,6 +1,6 @@
 # Movie Search Application
 
-A movie searching application using react. It uses react components and react hooks.
+A movie searching application using movie db api. It uses react components and react hooks.
 
 ![Movie Search App](https://raw.githubusercontent.com/Aishwarya-Venkatraman/movie-search-app/master/movie-search-app.png)
 
