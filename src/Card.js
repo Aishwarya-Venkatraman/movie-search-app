@@ -4,7 +4,7 @@ import './Card.css';
 export default function Card({movie}) {
 
     return(
-        <div className="card" key={movie.id}>
+        <div className="card">
             <img className="card--image"
                 src={movie.poster_path ? `https://image.tmdb.org/t/p/w185_and_h278_bestv2/${movie.poster_path}` : '/no-image.png'}
                 alt={movie.title + ' poster'}

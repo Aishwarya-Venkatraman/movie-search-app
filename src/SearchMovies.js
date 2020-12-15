@@ -32,7 +32,7 @@ export default function SearchMovies() {
             </form>
             <div className="card-list">
                 {movies.map(movie => (
-                    <Card movie={movie}/>
+                    <Card key={movie.id} movie={movie}/>
                 ))}
             </div> 
         </div>
